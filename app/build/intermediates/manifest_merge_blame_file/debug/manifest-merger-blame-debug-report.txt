@@ -1,0 +1,425 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.keenon.peanut.samples"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:9:5-75
+15-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:9:22-72
+16
+17    <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:26:5-77
+18-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:26:22-74
+19
+20    <application
+20-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:11:5-77:19
+21        android:name="com.keenon.peanut.demo.DemoApplication"
+21-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:12:9-40
+22        android:allowBackup="true"
+22-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:13:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\e81257837f1767da48ac036f752f439b\core-1.5.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:14:9-43
+26        android:label="@string/app_name"
+26-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:15:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:16:9-54
+28        android:supportsRtl="true"
+28-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:17:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:18:9-40
+31        <activity
+31-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:19:9-21:39
+32            android:name="com.keenon.peanut.demo.NumberRobotPage"
+32-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:20:13-44
+33            android:exported="true" />
+33-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:21:13-36
+34        <activity
+34-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:22:9-24:39
+35            android:name="com.keenon.peanut.demo.KeenonApiDemoMain"
+35-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:23:13-46
+36            android:exported="true" />
+36-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:24:13-36
+37        <activity
+37-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:25:9-33:20
+38            android:name="com.keenon.peanut.demo.SrvRobotLoginActivity2"
+38-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:26:13-51
+39            android:windowSoftInputMode="stateHidden" >
+39-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:27:13-54
+40            <intent-filter>
+40-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:28:13-32:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:29:17-69
+41-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:29:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:31:17-77
+43-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:31:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:34:9-36:59
+47            android:name="com.keenon.peanut.demo.base.BaseDemo"
+47-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:35:13-42
+48            android:label="@string/demo_title_baselist" />
+48-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:36:13-56
+49        <activity
+49-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:37:9-39:62
+50            android:name="com.keenon.peanut.demo.chassis.ChassisList"
+50-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:38:13-48
+51            android:label="@string/demo_title_chassislist" />
+51-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:39:13-59
+52        <activity
+52-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:40:9-42:61
+53            android:name="com.keenon.peanut.demo.chassis.NavigationDemo"
+53-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:41:13-51
+54            android:label="@string/demo_title_navigation" />
+54-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:42:13-58
+55        <activity
+55-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:43:9-45:56
+56            android:name="com.keenon.peanut.demo.chassis.NavigationActivity"
+56-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:44:13-55
+57            android:label="@string/demo_title_pilot" />
+57-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:45:13-53
+58        <activity
+58-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:46:9-48:58
+59            android:name="com.keenon.peanut.demo.chassis.ChargerDemo"
+59-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:47:13-48
+60            android:label="@string/demo_title_charger" />
+60-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:48:13-55
+61        <activity
+61-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:49:9-51:56
+62            android:name="com.keenon.peanut.demo.chassis.MotorDemo"
+62-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:50:13-46
+63            android:label="@string/demo_title_motor" />
+63-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:51:13-53
+64        <activity
+64-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:52:9-54:61
+65            android:name="com.keenon.peanut.demo.device.DeviceList"
+65-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:53:13-46
+66            android:label="@string/demo_title_devicelist" />
+66-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:54:13-58
+67        <activity
+67-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:55:9-57:58
+68            android:name="com.keenon.peanut.demo.device.EmotionDemo"
+68-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:56:13-47
+69            android:label="@string/demo_title_emotion" />
+69-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:57:13-55
+70        <activity
+70-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:58:9-60:56
+71            android:name="com.keenon.peanut.demo.device.LightDemo"
+71-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:59:13-45
+72            android:label="@string/demo_title_light" />
+72-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:60:13-53
+73        <activity
+73-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:61:9-63:55
+74            android:name="com.keenon.peanut.demo.device.DoorDemo"
+74-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:62:13-44
+75            android:label="@string/demo_title_door" />
+75-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:63:13-52
+76        <activity
+76-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:64:9-66:60
+77            android:name="com.keenon.peanut.demo.device.DisinfectDemo"
+77-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:65:13-49
+78            android:label="@string/demo_title_disinfect" />
+78-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:66:13-57
+79        <activity
+79-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:67:9-69:61
+80            android:name="com.keenon.peanut.demo.sensor.SensorDemo"
+80-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:68:13-46
+81            android:label="@string/demo_title_sensorlist" />
+81-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:69:13-58
+82        <activity
+82-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:70:9-72:62
+83            android:name="com.keenon.peanut.demo.advance.AdvanceList"
+83-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:71:13-48
+84            android:label="@string/demo_title_advancelist" />
+84-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:72:13-59
+85        <activity
+85-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:73:9-75:56
+86            android:name="com.keenon.peanut.demo.advance.OtherDemo"
+86-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:74:13-46
+87            android:label="@string/demo_title_other" />
+87-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:75:13-53
+88        <activity android:name="com.keenon.peanut.demo.util.BaseActivity" />
+88-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:76:9-55
+88-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:76:19-52
+89
+90        <service
+90-->[com.squareup.leakcanary:leakcanary-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\e777c048f3054a3d73321481bf75354f\jetified-leakcanary-android-2.5\AndroidManifest.xml:23:9-25:40
+91            android:name="leakcanary.internal.HeapAnalyzerService"
+91-->[com.squareup.leakcanary:leakcanary-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\e777c048f3054a3d73321481bf75354f\jetified-leakcanary-android-2.5\AndroidManifest.xml:24:13-67
+92            android:exported="false" />
+92-->[com.squareup.leakcanary:leakcanary-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\e777c048f3054a3d73321481bf75354f\jetified-leakcanary-android-2.5\AndroidManifest.xml:25:13-37
+93        <service
+93-->[com.google.firebase:firebase-database:20.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\1cdd5f894fb02df78674af9a555e0395\jetified-firebase-database-20.0.1\AndroidManifest.xml:29:9-35:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.firebase:firebase-database:20.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\1cdd5f894fb02df78674af9a555e0395\jetified-firebase-database-20.0.1\AndroidManifest.xml:30:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-database:20.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\1cdd5f894fb02df78674af9a555e0395\jetified-firebase-database-20.0.1\AndroidManifest.xml:31:13-37
+97            <meta-data
+97-->[com.google.firebase:firebase-database:20.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\1cdd5f894fb02df78674af9a555e0395\jetified-firebase-database-20.0.1\AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+98-->[com.google.firebase:firebase-database:20.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\1cdd5f894fb02df78674af9a555e0395\jetified-firebase-database-20.0.1\AndroidManifest.xml:33:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:20.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\1cdd5f894fb02df78674af9a555e0395\jetified-firebase-database-20.0.1\AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+101                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+103        </service>
+104
+105        <activity
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+106            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+107            android:excludeFromRecents="true"
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+108            android:exported="true"
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+109            android:launchMode="singleTask"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+111            <intent-filter>
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+116
+117                <data
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+118                    android:host="firebase.auth"
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+119                    android:path="/"
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+120                    android:scheme="genericidp" />
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+121            </intent-filter>
+122        </activity>
+123        <activity
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+124            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+125            android:excludeFromRecents="true"
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+126            android:exported="true"
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+127            android:launchMode="singleTask"
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+129            <intent-filter>
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+130                <action android:name="android.intent.action.VIEW" />
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+134
+135                <data
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+136                    android:host="firebase.auth"
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+137                    android:path="/"
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+138                    android:scheme="recaptcha" />
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+139            </intent-filter>
+140        </activity>
+141
+142        <service
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+143            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+144            android:enabled="true"
+144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+145            android:exported="false" >
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+146            <intent-filter>
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+147                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+148
+149                <category android:name="android.intent.category.DEFAULT" />
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\fba6a590e046ae3bb28498ec65ed943f\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+150            </intent-filter>
+151        </service>
+152
+153        <provider
+153-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:29:9-37:20
+154            android:name="leakcanary.internal.LeakCanaryFileProvider"
+154-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:30:13-70
+155            android:authorities="com.squareup.leakcanary.fileprovider.com.keenon.peanut.samples"
+155-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:31:13-88
+156            android:exported="false"
+156-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:32:13-37
+157            android:grantUriPermissions="true" >
+157-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:33:13-47
+158            <meta-data
+158-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:34:13-36:66
+159                android:name="android.support.FILE_PROVIDER_PATHS"
+159-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:35:17-67
+160                android:resource="@xml/leak_canary_file_paths" />
+160-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:36:17-63
+161        </provider>
+162
+163        <activity
+163-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:39:9-44:66
+164            android:name="leakcanary.internal.activity.LeakActivity"
+164-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:40:13-69
+165            android:icon="@mipmap/leak_canary_icon"
+165-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:41:13-52
+166            android:label="@string/leak_canary_display_activity_label"
+166-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:42:13-71
+167            android:taskAffinity="com.squareup.leakcanary.com.keenon.peanut.samples"
+167-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:43:13-76
+168            android:theme="@style/leak_canary_LeakCanary.Base" />
+168-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:44:13-63
+169
+170        <activity-alias
+170-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:46:9-62:26
+171            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+171-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:47:13-77
+172            android:banner="@drawable/leak_canary_tv_icon"
+172-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:48:13-59
+173            android:enabled="@bool/leak_canary_add_launcher_icon"
+173-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:49:13-66
+174            android:icon="@mipmap/leak_canary_icon"
+174-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:50:13-52
+175            android:label="@string/leak_canary_display_activity_label"
+175-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:51:13-71
+176            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+176-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:52:13-79
+177            android:taskAffinity="com.squareup.leakcanary.com.keenon.peanut.samples"
+177-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:53:13-76
+178            android:theme="@style/leak_canary_LeakCanary.Base" >
+178-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:54:13-63
+179            <intent-filter>
+179-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:55:13-61:29
+180                <action android:name="android.intent.action.MAIN" />
+180-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:29:17-69
+180-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:29:25-66
+181
+182                <category android:name="android.intent.category.LAUNCHER" />
+182-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:31:17-77
+182-->C:\KeenonRobot\KeenonT5-Java-Interface-SDK\peanut-sdk-v0.11.2\SampleApp\app\src\main\AndroidManifest.xml:31:27-74
+183                <!-- Android TV launcher intent -->
+184                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+184-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:60:17-86
+184-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:60:27-83
+185            </intent-filter>
+186        </activity-alias>
+187
+188        <activity
+188-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:64:9-70:68
+189            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+189-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:65:13-80
+190            android:excludeFromRecents="true"
+190-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:66:13-46
+191            android:icon="@mipmap/leak_canary_icon"
+191-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:67:13-52
+192            android:label="@string/leak_canary_storage_permission_activity_label"
+192-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:68:13-82
+193            android:taskAffinity="com.squareup.leakcanary.com.keenon.peanut.samples"
+193-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:69:13-76
+194            android:theme="@style/leak_canary_Theme.Transparent" />
+194-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:70:13-65
+195
+196        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:72:9-77
+196-->[com.squareup.leakcanary:leakcanary-android-core:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\5d1cfb8ef378f83ad4c50ccc5f72e9b1\jetified-leakcanary-android-core-2.5\AndroidManifest.xml:72:19-74
+197
+198        <provider
+198-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\2e2b1753c2c3923470ab26ec9e9b0424\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:8:9-12:40
+199            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+199-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\2e2b1753c2c3923470ab26ec9e9b0424\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:9:13-79
+200            android:authorities="com.keenon.peanut.samples.leakcanary-installer"
+200-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\2e2b1753c2c3923470ab26ec9e9b0424\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:10:13-72
+201            android:enabled="@bool/leak_canary_watcher_auto_install"
+201-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\2e2b1753c2c3923470ab26ec9e9b0424\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:11:13-69
+202            android:exported="false" />
+202-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\2e2b1753c2c3923470ab26ec9e9b0424\jetified-leakcanary-object-watcher-android-2.5\AndroidManifest.xml:12:13-37
+203        <provider
+203-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\9a2a8ef6d4ba5b86483a06ed9f7630af\jetified-plumber-android-2.5\AndroidManifest.xml:8:9-12:40
+204            android:name="leakcanary.internal.PlumberInstaller"
+204-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\9a2a8ef6d4ba5b86483a06ed9f7630af\jetified-plumber-android-2.5\AndroidManifest.xml:9:13-64
+205            android:authorities="com.keenon.peanut.samples.plumber-installer"
+205-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\9a2a8ef6d4ba5b86483a06ed9f7630af\jetified-plumber-android-2.5\AndroidManifest.xml:10:13-69
+206            android:enabled="@bool/leak_canary_plumber_auto_install"
+206-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\9a2a8ef6d4ba5b86483a06ed9f7630af\jetified-plumber-android-2.5\AndroidManifest.xml:11:13-69
+207            android:exported="false" />
+207-->[com.squareup.leakcanary:plumber-android:2.5] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\9a2a8ef6d4ba5b86483a06ed9f7630af\jetified-plumber-android-2.5\AndroidManifest.xml:12:13-37
+208
+209        <activity
+209-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\efec7e0c5f71242a130c2f522d69d3f7\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\efec7e0c5f71242a130c2f522d69d3f7\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\efec7e0c5f71242a130c2f522d69d3f7\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\efec7e0c5f71242a130c2f522d69d3f7\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+213
+214        <provider
+214-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+216            android:authorities="com.keenon.peanut.samples.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:20.0.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\f974751ac5677ce8830189f78881ba9c\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\76d9b39004339d87bed43eb49248bfed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\76d9b39004339d87bed43eb49248bfed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\fei\.gradle\caches\transforms-2\files-2.1\76d9b39004339d87bed43eb49248bfed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+224    </application>
+225
+226</manifest>

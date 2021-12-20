@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keenon.peanut.demo.sensor.SensorDemo">
+
+    <CheckBox
+        android:id="@+id/cb_infrared_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_infrared_status"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cb_touch_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_touch_status"
+        app:layout_constraintBottom_toBottomOf="@id/cb_infrared_status"
+        app:layout_constraintLeft_toRightOf="@id/cb_infrared_status"
+        app:layout_constraintTop_toTopOf="@id/cb_infrared_status" />
+
+    <CheckBox
+        android:id="@+id/cb_hrc_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_easy_hrc"
+        app:layout_constraintBottom_toBottomOf="@id/cb_touch_status"
+        app:layout_constraintLeft_toRightOf="@id/cb_touch_status"
+        app:layout_constraintTop_toTopOf="@id/cb_touch_status" />
+
+    <CheckBox
+        android:id="@+id/cb_image_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_image_module"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_infrared_status" />
+
+    <CheckBox
+        android:id="@+id/cb_lidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_lidar_info"
+        app:layout_constraintBottom_toBottomOf="@id/cb_image_module"
+        app:layout_constraintLeft_toRightOf="@id/cb_image_module"
+        app:layout_constraintTop_toTopOf="@id/cb_image_module" />
+
+    <CheckBox
+        android:id="@+id/cb_depth_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_depth_camera"
+        app:layout_constraintBottom_toBottomOf="@id/cb_lidar"
+        app:layout_constraintLeft_toRightOf="@id/cb_lidar"
+        app:layout_constraintTop_toTopOf="@id/cb_lidar" />
+
+    <CheckBox
+        android:id="@+id/cb_sonar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_sonar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_image_module" />
+
+    <CheckBox
+        android:id="@+id/cb_psd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_psd"
+        app:layout_constraintBottom_toBottomOf="@id/cb_sonar"
+        app:layout_constraintLeft_toRightOf="@id/cb_sonar"
+        app:layout_constraintTop_toTopOf="@id/cb_sonar" />
+
+    <CheckBox
+        android:id="@+id/cb_collision"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_collision"
+        app:layout_constraintBottom_toBottomOf="@id/cb_psd"
+        app:layout_constraintLeft_toRightOf="@id/cb_psd"
+        app:layout_constraintTop_toTopOf="@id/cb_psd" />
+
+    <CheckBox
+        android:id="@+id/cb_imu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_imu_status"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_sonar" />
+
+    <CheckBox
+        android:id="@+id/cb_imu_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="@string/auto_send_imu_angle"
+        app:layout_constraintBottom_toBottomOf="@id/cb_imu"
+        app:layout_constraintLeft_toRightOf="@id/cb_imu"
+        app:layout_constraintTop_toTopOf="@id/cb_imu" />
+
+    <Button
+        android:id="@+id/btn_rectify_infrared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/rectify_infrared"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_imu" />
+
+    <include layout="@layout/layout_right_scroll_log" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

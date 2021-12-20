@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keenon.peanut.demo.device.DoorDemo">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CheckBox
+                android:id="@+id/cb_door_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/auto_send_cover_status"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_query_cover_status"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/query_cover_status"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cb_door_status" />
+
+            <Button
+                android:id="@+id/btn_cover_open"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/cover_open"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_query_cover_status"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintLeft_toRightOf="@+id/btn_query_cover_status"
+                app:layout_constraintTop_toTopOf="@+id/btn_query_cover_status" />
+
+
+            <Button
+                android:id="@+id/btn_cover_close"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="8dp"
+                android:text="@string/cover_close"
+                app:layout_constraintBottom_toBottomOf="@+id/btn_cover_open"
+                app:layout_constraintLeft_toRightOf="@+id/btn_cover_open"
+                app:layout_constraintTop_toTopOf="@+id/btn_cover_open" />
+
+            <Button
+                android:id="@+id/btn_door1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:text="门1"
+                app:layout_constraintEnd_toStartOf="@id/btn_door2"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_query_cover_status" />
+
+            <Button
+                android:id="@+id/btn_door2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:text="门2"
+                app:layout_constraintEnd_toStartOf="@id/btn_door3"
+                app:layout_constraintStart_toEndOf="@id/btn_door1"
+                app:layout_constraintTop_toBottomOf="@id/btn_query_cover_status" />
+
+            <Button
+                android:id="@+id/btn_door3"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:text="门3"
+                app:layout_constraintEnd_toStartOf="@id/btn_door4"
+                app:layout_constraintStart_toEndOf="@id/btn_door2"
+                app:layout_constraintTop_toBottomOf="@id/btn_query_cover_status" />
+
+            <Button
+                android:id="@+id/btn_door4"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:text="门4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/btn_door3"
+                app:layout_constraintTop_toBottomOf="@id/btn_query_cover_status" />
+
+            <Button
+                android:id="@+id/btn_single_open_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="单独打开门2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_door1" />
+
+            <Button
+                android:id="@+id/btn_closeall"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="全部关闭"
+                app:layout_constraintStart_toEndOf="@id/btn_single_open_2"
+                app:layout_constraintTop_toBottomOf="@id/btn_door1" />
+
+            <Button
+                android:id="@+id/btn_if_allclose"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="是否全部关闭"
+                app:layout_constraintStart_toEndOf="@id/btn_closeall"
+                app:layout_constraintTop_toBottomOf="@id/btn_door1" />
+
+            <Button
+                android:id="@+id/btn_switch_type4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="切换舱类型 四舱"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_single_open_2" />
+
+            <Button
+                android:id="@+id/btn_switch_type3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="切换舱类型 T "
+                app:layout_constraintStart_toEndOf="@id/btn_switch_type4"
+                app:layout_constraintTop_toBottomOf="@id/btn_single_open_2" />
+
+            <Button
+                android:id="@+id/btn_switch_type3_reverse"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="切换舱类型 倒T"
+                app:layout_constraintStart_toEndOf="@id/btn_switch_type3"
+                app:layout_constraintTop_toBottomOf="@id/btn_single_open_2" />
+
+            <Button
+                android:id="@+id/btn_switch_type2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="切换舱类型 双仓"
+                app:layout_constraintStart_toEndOf="@id/btn_switch_type3_reverse"
+                app:layout_constraintTop_toBottomOf="@id/btn_single_open_2" />
+
+            <Button
+                android:id="@+id/btn_auto_type"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="舱类型自动"
+                app:layout_constraintStart_toEndOf="@id/btn_switch_type2"
+                app:layout_constraintTop_toBottomOf="@id/btn_single_open_2" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btn_switch_type4"
+                tools:text="测试文字测试文字测试文字测" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/layout_right_scroll_log" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+{
+    "productKey": "123456",
+    "deviceName": "disinfect",
+    "productSecret": "",
+    "deviceSecret": "",
+    "subDevice": [
+      {
+          "productKey": "",
+          "deviceName": ""
+      },
+      {
+          "productKey": "",
+          "deviceName": ""
+      }
+    ]
+}

@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_demo.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\item_demo.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_right_scroll_log.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\layout_right_scroll_log.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_util.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\util.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_service_logo.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\service_logo.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_motor.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_motor.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mfg_switch_thumb_selector.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\mfg_switch_thumb_selector.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_robot_base.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_robot_base.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_number_robot_page.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_number_robot_page.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_item_property.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\listview_item_property.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\menu_keenon_menu.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\menu\\keenon_menu.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navigation.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mfg_switch_rectangle_thumb_off.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\mfg_switch_rectangle_thumb_off.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\map.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_advance_other.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_advance_other.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tsl.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_tsl.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emotion.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_emotion.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sensor.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_sensor.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mfg_switch_rectangle_track.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\mfg_switch_rectangle_track.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_door.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_door.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_disinfect.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_disinfect.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_charge.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_charge.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_navigation_pilot.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_navigation_pilot.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_demo_info.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\item_demo_info.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_lightl.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_lightl.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sensor.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\sensor.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mfg_switch_rectangle_thumb_on.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\mfg_switch_rectangle_thumb_on.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_draw.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\draw.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_base.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chassis.png.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\drawable\\chassis.png"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_srv_robot_login2.xml.flat",
+        "source": "C:\\KeenonRobot\\KeenonT5-Java-Interface-SDK\\peanut-sdk-v0.11.2\\SampleApp\\app\\src\\main\\res\\layout\\activity_srv_robot_login2.xml"
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "73159706739",
+    "firebase_url": "https://keenon-d1935-default-rtdb.firebaseio.com",
+    "project_id": "keenon-d1935",
+    "storage_bucket": "keenon-d1935.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73159706739:android:3332bf674c2cdbad40c206",
+        "android_client_info": {
+          "package_name": "com.keenon.peanut.samples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73159706739-pc3osuqmdhl4jijg5kpt21b6evuntd66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYX3kzhG04zDXBjv7NUKeNCLVUwolmJBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73159706739-pc3osuqmdhl4jijg5kpt21b6evuntd66.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

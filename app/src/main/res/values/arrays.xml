@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="light_mode">
+        <item>关闭</item>
+        <item>常亮</item>
+        <item>呼吸</item>
+        <item>闪烁</item>
+    </string-array>
+</resources>

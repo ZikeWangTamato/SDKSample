@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Keenon DEMO</string>
+
+    <string name="unavailable_at_the_moment">unavailable at the moment</string>
+    <string name="demo_title_baselist">Equipment Information</string>
+    <string name="demo_desc_baselist">power, destination, mileage etc.</string>
+
+    <string name="demo_title_chassislist">Navigation and control</string>
+    <string name="demo_desc_chassislist">Robot navigation</string>
+    <string name="demo_title_navigation">Navigaion</string>
+    <string name="demo_desc_navigation">Navigaion, control, state info</string>
+    <string name="demo_title_pilot">pilot and control</string>
+    <string name="demo_title_motor">电机功能</string>
+    <string name="demo_desc_motor">电机解锁控制以及状态信息</string>
+    <string name="demo_title_charger">充电功能</string>
+    <string name="demo_desc_charger">充电控制及状态信息</string>
+    <string name="demo_title_sensorlist">unavailable at the moment for Sensor info</string>
+    <string name="demo_desc_sensorlist">Robot vision,radar,IMU,PSD,label,collision,touch sensor etc. demo</string>
+
+    <string name="demo_title_devicelist">unavailable at the moment for controller</string>
+    <string name="demo_desc_devicelist">Light, Hatch, disinfect equipment etc. control and state info</string>
+    <string name="demo_title_emotion">表情灯功能</string>
+    <string name="demo_desc_emotion">表情灯控制以及状态信息</string>
+    <string name="demo_title_light">警示灯功能</string>
+    <string name="demo_desc_light">警示灯控制以及状态信息</string>
+    <string name="demo_title_door">门控功能</string>
+    <string name="demo_desc_door">门的开关控制及状态信息</string>
+    <string name="demo_title_disinfect">消毒功能</string>
+    <string name="demo_desc_disinfect">消毒装置控制及状态信息</string>
+
+    <string name="demo_title_advancelist">unavailable at the moment for advanced settings</string>
+    <string name="demo_desc_advancelist">Robot configuration, upgrade, map building</string>
+    <string name="demo_title_config">配置功能</string>
+    <string name="demo_desc_config">机器人参数配置、生效</string>
+    <string name="demo_title_update">升级功能</string>
+    <string name="demo_desc_update">机器人在线升级</string>
+    <string name="demo_title_map">建图功能</string>
+    <string name="demo_desc_map">机器人建图模式下基于标签的地图创建、优化、同步等</string>
+    <string name="demo_title_other">其他功能</string>
+    <string name="demo_desc_other">机器人其他功能，梯控、调度等</string>
+    <string name="demo_title_iot">物模型功能</string>
+    <string name="demo_desc_iot">机器人物模型方式接入及控制等</string>
+    <!--navigation-->
+    <string name="auto_pilot_next">Next Pilot</string>
+    <string name="auto_pilot_pause">Pause Pilot</string>
+    <string name="auto_pilot">start navigation</string>
+    <string name="auto_pilot_resume">Continue to pilot</string>
+    <string name="auto_pilot_stop">Stop pilot</string>
+    <string name="auto_pilot_finish">结束导航</string>
+    <string name="auto_pilot_path">规划路径</string>
+    <string name="auto_pilot_query_dest">Query Destination</string>
+    <string name="auto_pilot_target_id_title">目标点序号</string>
+    <string name="auto_pilot_target_id">1</string>
+    <string name="auto_pilot_status_title">导航状态</string>
+    <string name="please_input_destination">Input Dest</string>
+    <string name="please_input_speed">请输入导航速度</string>
+    <string name="robot_action">机器人底盘功能</string>
+    <string name="sensor_action">机器人传感器功能</string>
+    <string name="emotion_action">机器人灯板功能</string>
+    <string name="cover_action">机器人开盖功能</string>
+
+    <string name="auto_charge">自动充电</string>
+    <string name="manual_charge">手动充电</string>
+    <string name="cancel_charge">取消充电</string>
+    <string name="adapter_charge">适配器充电</string>
+
+    <string name="robot_command">底盘指令</string>
+    <string name="sensor_command">传感器指令</string>
+    <string name="emotion_command">表情指令</string>
+    <string name="hotel_cover_command">开盖指令</string>
+
+    <string name="navigation_mode">导航模式</string>
+    <string name="test_mode">测试模式</string>
+    <string name="adapter_charge_mode">线充模式</string>
+
+
+    <string name="auto_send_power">自动上报电量</string>
+    <string name="auto_send_motor_status">自动上报电机状态</string>
+    <string name="auto_send_navigation_event">自动上报导航事件</string>
+    <string name="auto_send_charge_event">自动充电事件</string>
+    <string name="auto_send_move_robot">自动上报移动物体</string>
+    <string name="auto_send_ip">自动上报IP</string>
+    <string name="auto_send_image_module">自动上报图像模块</string>
+    <string name="auto_send_lidar_info">自动上报激光信息</string>
+    <string name="auto_send_depth_camera">自动上报深度摄像头信息</string>
+    <string name="auto_send_sonar">自动上报超声波</string>
+    <string name="auto_send_psd">自动上报PSD</string>
+    <string name="auto_send_collision">自动上报碰撞</string>
+    <string name="auto_send_cover_status">自动上报盖子状态</string>
+    <string name="auto_send_infrared_status">自动上报红外状态</string>
+    <string name="auto_send_touch_status">自动上报触摸状态</string>
+    <string name="auto_send_easy_hrc">自动Easy-Hrc状态</string>
+    <string name="auto_send_imu_status">自动上报IMU状态</string>
+    <string name="auto_send_imu_angle">自动上报IMU信息</string>
+    <string name="auto_send_disinfect_status">自动上报消毒状态</string>
+    <string name="auto_send_disinfect_liquid">自动上报消毒液位信息</string>
+
+    <!--device-->
+    <string name="arm_info">ARM板信息</string>
+    <string name="stm32_info">STM32板信息</string>
+    <string name="query_ip">查询算法板IP</string>
+    <string name="query_power">Query Power</string>
+    <string name="query_location">laser position</string>
+    <string name="query_params">type params config</string>
+    <string name="query_mileage">Query Mileage</string>
+    <string name="query_health">自动上报健康状态</string>
+    <string name="query_object">自动上报移动物体</string>
+    <string name="query_heartbeat">自动上报心跳包</string>
+    <string name="query_button">自动上报急停按钮</string>
+    <string name="query_schedule_live">自动上报调度实况</string>
+    <string name="query_schedule_status">自动上报调度状态</string>
+    <string name="query_elevator_forward">自动上报电梯请求</string>
+    <string name="query_elevator_status">自动上报电梯状态</string>
+
+    <string name="query_charge_status">查询充电状态</string>
+    <string name="query_multiple_target">多个目标点排序</string>
+    <string name="query_all_destination">查询所有目标点</string>
+    <string name="query_mode_max_speed">查询模式最大速度-导航模式</string>
+    <string name="set_mode_max_speed">设置模式最大速度-导航模式-96</string>
+
+
+    <string name="change_work_mode">切换工作模式</string>
+    <string name="query_cover_status">查询盖子状态</string>
+    <string name="cover_open">开启盖子</string>
+    <string name="cover_close">关闭盖子</string>
+
+    <string name="rectify_infrared">校正红外</string>
+
+    <string name="vui_mode_command">语音模块</string>
+
+    <!--motor-->
+    <string name="motor_enable">电机状态</string>
+    <string name="motor_unlock">解锁</string>
+    <string name="motor_lock">锁定</string>
+    <string name="motor_hrc">HRC解锁</string>
+    <string name="motor_encoder">查询电机编码器</string>
+    <string name="motor_health">查询电机健康状态</string>
+    <string name="motor_speed">查询电机速度</string>
+
+    <string name="disinfect_cabin">舱位升降</string>
+    <string name="disinfect_drainage">启动水泵</string>
+    <string name="disinfect_atomizer">启动雾化器</string>
+    <string name="disinfect_ultraviolet">启动紫外灯</string>
+    <string name="disinfect_fan_high">设置喷雾强度-高档</string>
+    <string name="disinfect_fan_low">设置喷雾强度-低档</string>
+
+
+    <string name="iot_tsl_device_name"> 设备类型：%1$s </string>
+    <string name="iot_tsl_hint"> 参照下方输入示例 </string>
+    <string name="iot_tsl_data_format"> 测试输入示例：
+        \n int: 1 \n boolean:0
+        \n struct:{\"key\":\"val\"} \n array:[1,2,3]
+        \n array[struct]:[{1,2,3}, {4,5,6}]
+        \n double/float: 1.2
+        \n text: xxxxx
+    </string>
+    <string name="demo_route_done">route already finish !</string>
+    <string name="arrival">arrive approximately</string>
+    <string name="timeout_tip">timeout for avoidance(range: 0~300sec)</string>
+    <string name="repeat_time">repeat time (-1: infinity)</string>
+    <string name="speed">Speed(range: 0~100cm/s)</string>
+    <string name="continue_nav">continue to navigate to next point~</string>
+    <string name="avoid_tip">Could I get by?</string>
+    <string name="no_more_point">No more destination</string>
+    <string name="arrive_tip_1">Arrived, after %s ms, move to next point</string>
+    <string name="arrive_tip_2">Arrived, please click to move to next point</string>
+    <string name="go_to">forward</string>
+    <string name="block_timeout_tip">block timeout!</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_advance_other.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_base.xml" value="0.33" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_charge.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_disinfect.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_door.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_emotion.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_lightl.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_navigation.xml" value="0.25" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_navigation_pilot.xml" value="0.3572916666666667" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_number_robot_page.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_robot_base.xml" value="0.25" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_srv_robot_login2.xml" value="0.33" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/activity_tsl.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/item_demo.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/item_demo_info.xml" value="0.36666666666666664" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/layout_right_scroll_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/listview_item_property.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/layout/main.xml" value="0.3625" />
+        <entry key="..\:/KeenonRobot/KeenonT5-Java-Interface-SDK/peanut-sdk-v0.11.2/SampleApp/app/src/main/res/menu/keenon_menu.xml" value="0.2171875" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_advance_other.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_navigation_pilot.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_number_robot_page.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_robot_base.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_sensor.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_srv_robot_login2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/activity_tsl.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/item_demo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/item_demo_info.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/layout_right_scroll_log.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/listview_item_property.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/layout/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/menu/keenon_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/ACMLab/Desktop/KeenonRobotAppDevelopment/RobotApp1-main/SampleApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.36666666666666664" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

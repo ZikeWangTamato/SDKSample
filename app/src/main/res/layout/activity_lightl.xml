@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keenon.peanut.demo.device.LightDemo">
+
+    <TextView
+        android:id="@+id/tv_light_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="警示灯"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/bt_light_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:text="开"
+        android:textAllCaps="false"
+        app:layout_constraintDimensionRatio="h,3:2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_light_title" />
+
+    <Button
+        android:id="@+id/bt_light_off"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="关"
+        app:layout_constraintBottom_toBottomOf="@+id/bt_light_warning"
+        app:layout_constraintLeft_toRightOf="@+id/bt_light_warning"
+        app:layout_constraintTop_toTopOf="@+id/bt_light_warning"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_light_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="自定义设置"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_light_warning" />
+
+    <RelativeLayout
+        android:id="@+id/property_layout"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_light_custom">
+
+        <Spinner
+            android:id="@+id/spinner_light"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" />
+        <EditText
+            android:layout_toRightOf="@id/spinner_light"
+            android:layout_toLeftOf="@+id/start_light_button"
+            android:id="@+id/tv_density"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:hint="亮度"
+            android:inputType="number"
+            android:gravity="center_vertical"
+            android:background="@null"/>
+        <Button
+            android:id="@+id/start_light_button"
+            android:layout_alignParentRight="true"
+            android:onClick="startLight"
+            android:hint="input json string"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="开始"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/start_breath_button"
+        android:onClick="startBreath"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/property_layout"
+        android:text="呼吸效果"/>
+
+    <include layout="@layout/layout_right_scroll_log" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
